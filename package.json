@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/MaksZaychikov/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/MaksZaychikov/frontend-project-lvl2/actions)",
   "type": "module",
-  "bin": { "gendiff": "bin/gendiff.js" },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/MaksZaychikov/frontend-project-lvl2/issues"
   },
-  "homepage": "https://github.com/MaksZaychikov/frontend-project-lvl2#readme"
+  "homepage": "https://github.com/MaksZaychikov/frontend-project-lvl2#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "lodash": "^4.17.21"
+  }
 }
