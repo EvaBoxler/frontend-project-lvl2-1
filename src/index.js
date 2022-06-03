@@ -8,7 +8,7 @@ const genDiff = (filepath1, filepath2) => {
   const keys2 = _.keys(file2);
   const sortedKeys = _.union(keys1, keys2).sort();
 
-  const newArr = [];
+  let newArr = [];
   sortedKeys.map((key) => {
     if (!_.has(file1, key)) {
       newArr.push(`  + ${key}: ${file2[key]}`);
