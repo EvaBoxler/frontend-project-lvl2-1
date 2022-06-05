@@ -1,3 +1,5 @@
+import { extname } from 'path';
+import parse from './parsers.js';
 import _ from 'lodash';
 import readFile from './readFile.js';
 

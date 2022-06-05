@@ -1,3 +1,4 @@
+import { load } from 'js-yaml';
 const parse = (filename, format) => {
     switch (format) {
         case '.json':
@@ -10,3 +11,5 @@ const parse = (filename, format) => {
             throw new Error('Incorrect file format');
     }
 };
+
+export default parse;
