@@ -1,7 +1,7 @@
 import { extname } from 'path';
-import parse from './parsers.js';
 import _ from 'lodash';
 import readFile from './readFile.js';
+import parse from './parsers.js';
 
 const genDiff = (filepath1, filepath2) => {
   const readFile1 = readFile(filepath1);
