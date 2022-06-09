@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 const getFixturePath = (filename) => resolve(__dirname, '..', '__fixtures__', filename);
 const readFile = (filename) => readFileSync(getFixturePath(filename), 'utf-8');
 
-const expectedOutput = readFile('stylishOutout.txt');
+const expectedOutput = readFile('stylishOutput.txt');
 
 test('gediff test .JSON', () => {
   expect(genDiff('file1.json', 'file2.json')).toEqual(expectedOutput);
