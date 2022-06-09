@@ -6,3 +6,6 @@
 
 Example with fla files:
 https://asciinema.org/a/m8Nn6JaBs1GbBrD37HnmvsppE
+
+Example with nested files:
+https://asciinema.org/a/Kd1bEkWOs0TAd07v3jtr5lFYM
