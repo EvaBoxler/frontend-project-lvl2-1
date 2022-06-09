@@ -4,5 +4,5 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/3990e25cd00d0dccab94/test_coverage)](https://codeclimate.com/github/MaksZaychikov/frontend-project-lvl2/test_coverage)
 [![Node.js](https://github.com/MaksZaychikov/frontend-project-lvl2/actions/workflows/nodejs.yml/badge.svg)](https://github.com/MaksZaychikov/frontend-project-lvl2/actions/workflows/nodejs.yml)
 
-Example with .json
-https://asciinema.org/a/2oWoJsbhQhyMvah4DKLFECseQ
+Example with fla files:
+https://asciinema.org/a/m8Nn6JaBs1GbBrD37HnmvsppE
