@@ -3,7 +3,7 @@ import readFile from '../src/readFile.js';
 import genDiff from '../src/index.js';
 
 const expectedStylishOutput = readFile('stylishOutput.txt');
-const expectedPlainOutput = readFile('plainOutput.txt')
+const expectedPlainOutput = readFile('plainOutput.txt');
 
 test('gediff stylish test .JSON', () => {
   expect(genDiff('file1.json', 'file2.json')).toEqual(expectedStylishOutput);
