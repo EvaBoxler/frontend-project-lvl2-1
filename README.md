@@ -9,10 +9,10 @@ This is the utility, which shows difference between two files. The output can be
 
 ## **Installation:**
 
-1. Clone this repo with command: gti clone.
-2. Install the programm with commands: npm install and nnpm link.
-3. Programm commands: -f format, -h help.
-4. Format styles: plain, json, stylish.
+1. Clone this repo with command: `git clone`.
+2. Install the programm with commands: `npm install` and `npm link`.
+3. Programm commands: `-f format, -h help`.
+4. Format styles: `plain, json, stylish`.
 
 ## **Videoreview**
 
