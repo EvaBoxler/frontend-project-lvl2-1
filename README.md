@@ -9,3 +9,6 @@ https://asciinema.org/a/m8Nn6JaBs1GbBrD37HnmvsppE
 
 Example with nested files:
 https://asciinema.org/a/Kd1bEkWOs0TAd07v3jtr5lFYM
+
+Example with flat files:
+https://asciinema.org/a/Qm9lRdcvqX2A9CSq9BS96MqO3
