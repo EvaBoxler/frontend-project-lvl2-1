@@ -9,7 +9,7 @@ const makeTree = (file1, file2) => {
     const value1 = file1[key];
     const value2 = file2[key];
 
-    if (_.isPlainObject (value1) && _.isPlainObject(value2)) {
+    if (_.isPlainObject(value1) && _.isPlainObject(value2)) {
       return {
         key,
         type: 'nested',
