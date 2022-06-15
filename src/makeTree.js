@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import _, { isPlainObject } from 'lodash';
 
 const makeTree = (file1, file2) => {
   const keys1 = Object.keys(file1);
@@ -9,7 +9,7 @@ const makeTree = (file1, file2) => {
     const value1 = file1[key];
     const value2 = file2[key];
 
-    if (typeof (value1) === 'object' && typeof (value2) === 'object') {
+    if (isPlainObject (value1) && isPlainObject(value2)) {
       return {
         key,
         type: 'nested',
