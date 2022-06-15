@@ -34,7 +34,7 @@ const buildTree = (nodes) => {
         return '';
       }
       default:
-        return null;
+        throw new Error(`Unknown type: '${type}'`);
     }
   };
 

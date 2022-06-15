@@ -45,7 +45,7 @@ const buildTree = (nodes) => {
         return `\n${indent(depth)}  ${key}: ${stringify(value, depth + 1)}`;
       }
       default:
-        return null;
+        throw new Error(`Unknown type: '${type}'`);
     }
   };
 

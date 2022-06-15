@@ -1,4 +1,4 @@
-import _, { isPlainObject } from 'lodash';
+import isPlainObject from 'lodash';
 
 const makeTree = (file1, file2) => {
   const keys1 = Object.keys(file1);
