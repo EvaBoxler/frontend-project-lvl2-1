@@ -2,11 +2,11 @@ import { load } from 'js-yaml';
 
 const parse = (filename, format) => {
   switch (format) {
-    case '.json':
+    case 'json':
       return JSON.parse(filename);
-    case '.yaml':
+    case 'yaml':
       return load(filename);
-    case '.yml':
+    case 'yml':
       return load(filename);
     default:
       throw new Error('Incorrect file format');
