@@ -1,5 +1,5 @@
 import { test, expect } from '@jest/globals';
-import  { readFile, getFormat } from '../src/readFile.js';
+import { readFile } from '../src/readFile.js';
 import genDiff from '../src/index.js';
 
 const expectedStylishOutput = readFile('stylishOutput.txt');

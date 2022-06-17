@@ -7,7 +7,6 @@ const __dirname = dirname(__filename);
 
 const getFormat = (filename) => filename.split('.')[1];
 
-
 const getFixturePath = (filename) => resolve(__dirname, '..', '__fixtures__', filename);
 const readFile = (filename) => readFileSync(getFixturePath(filename), 'utf-8');
 
